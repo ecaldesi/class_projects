@@ -1,7 +1,0 @@
-
-CREATE  DYING_ISNT_EASY         touch 1505334565.demo.root/YOU_LEFT_ME_JUST_WHEN_I_NEEDED_YOU
-MODIFY  DYING_ISNT_EASY         touch 1505334565.demo.root/YOU_SET_ME_BACK_WHEN_I_THOUGHT_I_GOT_BACK
-DELETE  DYING_ISNT_EASY         touch 1505334565.demo.root/JUST_WHEN_I_THOUGHT_I_GOT_BACK
-CREATE  number.5                echo ${FULLPATH} >  1505334565.demo.root/with_a_bullet
-MODIFY  number.5                echo ${BASEPATH} >> 1505334565.demo.root/with_a_bullet
-DELETE  number.5                echo ${EVENT} ${TIMESTAMP} >> 1505334565.demo.root/with_a_bullet
