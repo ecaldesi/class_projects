@@ -12,7 +12,7 @@ Rorschach will examine all the files under the root directory and any sub-direct
 
 RULES
 --------
-Rorschach will load in pattern rules from the file rules unless otherwise specified by the -f flag as shown below:
+Rorschach will load in pattern rules from the file rules unless otherwise specified by the -f flag as shown below: <br />
 EVENT PATTERN ACTION
 
 ENVIRONMENT VARIABLES
@@ -29,6 +29,7 @@ $ ./rorschach -h <br />
 Usage: rorschach options ROOT <br />
 
 Options:
+
     -h          Print this help message
     -f RULES    Load rules from this file (default is rules)
     -t SECONDS  Time between scans (default is 5 seconds)
