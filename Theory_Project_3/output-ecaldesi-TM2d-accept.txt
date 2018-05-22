@@ -1,0 +1,113 @@
+TM2d-ecaldesi-accept.txt
+Rule 1: q0,a,q1,x,R
+Rule 2: q0,y,q3,y,R
+Rule 3: q1,a,q1,a,R
+Rule 4: q1,y,q1,y,R
+Rule 5: q1,b,q2,y,L
+Rule 6: q2,a,q2,a,L
+Rule 7: q2,y,q2,y,L
+Rule 8: q2,x,q0,x,R
+Rule 9: q3,y,q3,y,R
+Rule 10: q3,_,q4,_,L
+
+
+Tape i: ab
+1,1,0,q0,a,q1,x,R
+2,5,1,q1,b,q2,y,L
+3,8,0,q2,x,q0,x,R
+4,2,1,q0,y,q3,y,R
+5,10,2,q3,_,q4,_,L
+Tape i: xy
+Accepted
+
+Tape i: aabb
+1,1,0,q0,a,q1,x,R
+2,3,1,q1,a,q1,a,R
+3,5,2,q1,b,q2,y,L
+4,6,1,q2,a,q2,a,L
+5,8,0,q2,x,q0,x,R
+6,1,1,q0,a,q1,x,R
+7,4,2,q1,y,q1,y,R
+8,5,3,q1,b,q2,y,L
+9,7,2,q2,y,q2,y,L
+10,8,1,q2,x,q0,x,R
+11,2,2,q0,y,q3,y,R
+12,9,3,q3,y,q3,y,R
+13,10,4,q3,_,q4,_,L
+Tape i: xxyy
+Accepted
+
+Tape i: aaaabbbb
+1,1,0,q0,a,q1,x,R
+2,3,1,q1,a,q1,a,R
+3,3,2,q1,a,q1,a,R
+4,3,3,q1,a,q1,a,R
+5,5,4,q1,b,q2,y,L
+6,6,3,q2,a,q2,a,L
+7,6,2,q2,a,q2,a,L
+8,6,1,q2,a,q2,a,L
+9,8,0,q2,x,q0,x,R
+10,1,1,q0,a,q1,x,R
+11,3,2,q1,a,q1,a,R
+12,3,3,q1,a,q1,a,R
+13,4,4,q1,y,q1,y,R
+14,5,5,q1,b,q2,y,L
+15,7,4,q2,y,q2,y,L
+16,6,3,q2,a,q2,a,L
+17,6,2,q2,a,q2,a,L
+18,8,1,q2,x,q0,x,R
+19,1,2,q0,a,q1,x,R
+20,3,3,q1,a,q1,a,R
+21,4,4,q1,y,q1,y,R
+22,4,5,q1,y,q1,y,R
+23,5,6,q1,b,q2,y,L
+24,7,5,q2,y,q2,y,L
+25,7,4,q2,y,q2,y,L
+26,6,3,q2,a,q2,a,L
+27,8,2,q2,x,q0,x,R
+28,1,3,q0,a,q1,x,R
+29,4,4,q1,y,q1,y,R
+30,4,5,q1,y,q1,y,R
+31,4,6,q1,y,q1,y,R
+32,5,7,q1,b,q2,y,L
+33,7,6,q2,y,q2,y,L
+34,7,5,q2,y,q2,y,L
+35,7,4,q2,y,q2,y,L
+36,8,3,q2,x,q0,x,R
+37,2,4,q0,y,q3,y,R
+38,9,5,q3,y,q3,y,R
+39,9,6,q3,y,q3,y,R
+40,9,7,q3,y,q3,y,R
+41,10,8,q3,_,q4,_,L
+Tape i: xxxxyyyy
+Accepted
+
+Tape i: aaabbb
+1,1,0,q0,a,q1,x,R
+2,3,1,q1,a,q1,a,R
+3,3,2,q1,a,q1,a,R
+4,5,3,q1,b,q2,y,L
+5,6,2,q2,a,q2,a,L
+6,6,1,q2,a,q2,a,L
+7,8,0,q2,x,q0,x,R
+8,1,1,q0,a,q1,x,R
+9,3,2,q1,a,q1,a,R
+10,4,3,q1,y,q1,y,R
+11,5,4,q1,b,q2,y,L
+12,7,3,q2,y,q2,y,L
+13,6,2,q2,a,q2,a,L
+14,8,1,q2,x,q0,x,R
+15,1,2,q0,a,q1,x,R
+16,4,3,q1,y,q1,y,R
+17,4,4,q1,y,q1,y,R
+18,5,5,q1,b,q2,y,L
+19,7,4,q2,y,q2,y,L
+20,7,3,q2,y,q2,y,L
+21,8,2,q2,x,q0,x,R
+22,2,3,q0,y,q3,y,R
+23,9,4,q3,y,q3,y,R
+24,9,5,q3,y,q3,y,R
+25,10,6,q3,_,q4,_,L
+Tape i: xxxyyy
+Accepted
+
