@@ -1,0 +1,3 @@
+MODIFY  *.c         echo ${FULLPATH}
+DELETE  *.txt       echo ${FULLPATH}
+CREATE  *.owen		  cat ${FULLPATH}
