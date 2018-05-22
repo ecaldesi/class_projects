@@ -1,0 +1,9 @@
+I(ab)Iba
+K(Kab)b
+SKIba
+S(cc)(ac)b
+----------
+abba
+a
+ba
+(cc)b((ac)b)
